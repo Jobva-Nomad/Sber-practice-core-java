@@ -1,4 +1,5 @@
 package ru.sber.base.syntax;
 
-public class Task_2 {
+public class Task3 {
+
 }
