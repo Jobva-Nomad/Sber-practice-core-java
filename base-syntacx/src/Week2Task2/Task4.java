@@ -1,4 +1,4 @@
-package ru.sber.base.syntax;
+package Week2Task2;
 import java.util.Scanner;
 
 public class Task4 {
