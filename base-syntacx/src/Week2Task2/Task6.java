@@ -8,7 +8,7 @@ public class Task6 {
         Random random = new Random();
 
         int max = Integer.MIN_VALUE;
-        int sum = 0;
+        float sum = 0;
 
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(1001);
@@ -18,7 +18,7 @@ public class Task6 {
             }
         }
 
-        int average = sum / array.length;
+        float average = sum / array.length;
 
         System.out.println("Максимальное значение = " + max + " находится в элементе под индексом " + findIndex(array, max));
         System.out.println("Среднее значение = " + average);
