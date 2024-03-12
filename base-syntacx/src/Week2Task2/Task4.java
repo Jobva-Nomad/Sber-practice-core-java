@@ -18,11 +18,7 @@ public class Task4 {
            }
 
        }
-        if(isPrime){
-            System.out.println("да, простое");
-        } else {
-            System.out.println("нет, составное");
-        }
+        System.out.println(isPrime ? "Да" : "Нет");
 
     }
 }

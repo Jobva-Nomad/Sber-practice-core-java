@@ -5,14 +5,14 @@ public class Task7 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите a =");
-        int a = scanner.nextInt();
-        System.out.print("Введите b =");
-        int b = scanner.nextInt();
-        System.out.print("Введите c =");
-        int c = scanner.nextInt();
+        System.out.print("Введите a = ");
+        float a = scanner.nextFloat();
+        System.out.print("Введите b = ");
+        float b = scanner.nextFloat();
+        System.out.print("Введите c = ");
+        float c = scanner.nextFloat();
 
-        double D = b^2 - 4*a*c;
+        float D = b*b - 4*a*c;
         if(D < 0) {
             System.out.println("Корней нет!!!!!!");
         } else if (D == 0){
